@@ -6,6 +6,13 @@ import java.util.Random;
  */
 public class PolynomialEvaluation {
 
+    /**
+     * Given a real number x, and a sequence of real numbers c0,c1....cn. Write an efficient program to find the out the value of
+     * following polynomial of degree 'n'.
+     * p^n (x) = Cn x^n + Cn-1 x^n-1 + ......+ c0
+     *
+     */
+
     public static void main(String args[])
     {
         int n = Integer.parseInt(args[0]);
