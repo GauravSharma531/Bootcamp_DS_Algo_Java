@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/BasicsThinking/BasicsThinking.iml" filepath="$PROJECT_DIR$/BasicsThinking/BasicsThinking.iml" />
       <module fileurl="file://$PROJECT_DIR$/DS_ALGO_JAVA.iml" filepath="$PROJECT_DIR$/DS_ALGO_JAVA.iml" />
     </modules>
   </component>
