@@ -16,18 +16,20 @@ public class PolynomialEvaluation {
     public static void main(String args[])
     {
         int n = Integer.parseInt(args[0]);
-        System.out.println(eval(n));
+        System.out.println(evaluatePolynomialEquation(n));
     }
 
-    private static int eval(int n) {
-        int[] constans = generateConstantArray(n);
-        System.out.println(Arrays.toString(constans));
+
+
+    private static int evaluatePolynomialEquation(int n) {
+        int[] constants = generateConstantArray(n);
+        System.out.println(Arrays.toString(constants));
         int x = 2;
         System.out.println("value of x :"+ x);
         int polynomialValue = 0;
         for(int i=0;i<n;++i)
         {
-            polynomialValue += constans[i] * evaluatePower(x,i+1);
+            polynomialValue += constants[i] * evaluatePower(x,i+1);
         }
 
         return polynomialValue;
