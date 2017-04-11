@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BasicsThinking/BasicsThinking.iml" filepath="$PROJECT_DIR$/BasicsThinking/BasicsThinking.iml" />
       <module fileurl="file://$PROJECT_DIR$/DS_ALGO_JAVA.iml" filepath="$PROJECT_DIR$/DS_ALGO_JAVA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MasteringList/MasteringList.iml" filepath="$PROJECT_DIR$/MasteringList/MasteringList.iml" />
     </modules>
   </component>
 </project>
